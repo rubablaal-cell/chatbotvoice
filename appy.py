@@ -11,7 +11,7 @@ api_key = "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"
 client = Groq(api_key=api_key)
 
 # Set page configuration
-st.set_page_config(page_title="PeakSolution-GPT", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="Badshah", page_icon="🤖", layout="centered")
 
 # Custom CSS for premium look and typing animation
 st.markdown("""
@@ -52,7 +52,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("PeakSolution-GPT")
+st.title("Badshah")
 
 # Sidebar for model selection and features
 with st.sidebar:
